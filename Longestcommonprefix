@@ -1,4 +1,6 @@
-string longestCommonPrefix(vector<string>& strs) {
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
         int n=strs.size();
         if(n==1)
         return strs[0];
@@ -15,3 +17,6 @@ string longestCommonPrefix(vector<string>& strs) {
             else return s;
         }
         return s;
+
+    }
+};
